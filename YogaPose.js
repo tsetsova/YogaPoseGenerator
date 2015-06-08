@@ -1,6 +1,6 @@
 var adjectives = ["happy", "half", "Lord of the", "flimsy", "public", "curious","downward", "half", "tired", "dancing", "smiling", "sleeping", "prancing", "inside out", "twisted", "reclining", "balanced", "safe", "leaping", "pouty", "thinking", "seated","simple", "upward", "extended"];
 
-var nouns = ["cat", "mouse", "sun", "bush","halibut","armadillo" ,"donkey" , "moon", "sun", "bottle", "crocodile", "badger","mosquito", "banana","strawberry","turtle","umbrella", "lizzard", "octopus","potato","meerkat", "lioness","owl","horse", "puffin","elephant","hare","tigress"];
+var nouns = ["cat", "mouse", "sun", "bush","halibut","armadillo" ,"donkey" , "moon", "sun", "butterfly", "crocodile", "badger","mosquito", "banana","strawberry","turtle","umbrella", "lizzard", "octopus","potato","meerkat", "lioness","owl","horse", "puffin","elephant","hare","tigress"];
 
 function randomPoseGenerator(noun) {
 	var randomAdjective = adjectives[Math.floor(Math.random()*adjectives.length)];
